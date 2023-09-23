@@ -42,8 +42,7 @@ class LoginPage extends StatelessWidget {
                 },
                 child: Text('Login'),
                 style: ElevatedButton.styleFrom(
-                  primary: Colors.red, // Set button background color
-                  onPrimary: Colors.white, // Set text color
+                  foregroundColor: Colors.white, backgroundColor: Colors.red, // Set text color
                   padding: EdgeInsets.symmetric(horizontal: 20.0), // Button padding
                 ),
               ),
